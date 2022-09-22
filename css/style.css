@@ -1,0 +1,376 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*header-section start*/
+.header-section{
+	width: 100%;
+	padding: 15px 0px;
+	background: #fff;
+
+}
+.header-section .navbar-nav .nav-item .nav-link{
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #28377e;
+	margin-left: 15px;
+	transition: 1s;
+
+
+}
+.header-section .navbar-nav .nav-item .nav-link:hover, .header-section .navbar-nav .nav-item .nav-link:focus{
+   color: #f2622c;
+}
+
+/*<!-- banner start -->*/
+
+.banner-section{
+	width: 100%;
+	height: 90%;
+	padding: 160px 0px 65px;
+	background: url(../images/banner.jpg);
+	background-size: cover;
+	text-align: center;
+}
+.banner-section h1{
+	font-size: 52px;
+	line-height: 62px;
+	font-weight: 700;
+	color: #fff;
+	padding-top: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+}
+.banner-section .arrow {
+	width: 100%;
+	padding: 160px 0px 0px 90px;
+}
+.banner-section .arrow .fa{
+	color: #fff;
+	font-size: 36px;
+
+}
+
+/*who we section start*/
+.who-we{
+	width: 100%;
+	padding: 80px 0px;
+
+}
+.who-we .title{
+	width: 100%;
+	padding: 80px 0px 10px;
+
+}
+.who-we .title h2{
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #28377e;
+	letter-spacing: 2px;
+}
+.who-we p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #b0b0b1;
+}
+/*we do section*/
+.we-do {
+	width: 100%;
+	padding: 80px 0px;
+	background: url(../images/banner2.jpg);
+	background-size: cover;
+}
+.we-do .title{
+	width: 100%;
+	padding: 0px 0px 80px;
+	text-align: center;
+
+}
+.we-do .title h2{
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #28377e;
+	letter-spacing: 2px;
+}
+.inner-image{
+	width: 100%;
+	position: relative;
+}
+.inner-image .img-fluid{
+	width: 100%;
+}
+.inner-wedo{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 40%;
+	left: 0px;
+	text-align: center;
+}
+.inner-wedo h4{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}
+.inner-wedo .long-arrow{
+	position: absolute;
+	left: 45%;
+	top: 40%;
+}
+.our-attorney{
+	width: 100%;
+	padding: 110px 0px;
+	background: url(../images/bg.jpg) center top no-repeat;
+	background-size: cover;
+}
+.our-attorney .title{
+	width: 100%;
+	padding: 110px 0px 10px;
+	
+
+}
+.our-attorney .title h2{
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 2px;
+}
+  .our-attorney p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #b0b0b1;
+}
+.our-attorney .btn-link{
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-decoration: none;
+	color: #f2622c;
+	padding: 0px;
+	transition: 1s;
+}
+.our-attorney .btn-link:hover, .our-attorney .btn-link:focus{
+	color: #fff !important;
+}
+.our-attorney .inner-image{
+	width: 100%;
+	position: relative;
+	margin: 0px 0px 24px;
+}
+.our-attorney .inner-attorney .img-fluid{
+	width: 100%;
+}
+ .our-attorney .inner-attorney{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 75%;
+	left: 10%;
+	
+}
+.our-attorney .inner-attorney h4{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/*languages section start*/
+.language{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.language .title{
+	width: 100%;
+	padding: 40px 0px 50px;
+	text-align: center;
+
+}
+.language .title h2{
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #28377e;
+	letter-spacing: 2px;
+}
+.language .inner h4{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 500;
+	color: #28377e;
+	text-transform: uppercase;
+}
+.language .inner p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #b0b0b1;
+}
+.language .inner .btn-link{
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-decoration: none;
+	color: #f2622c;
+	padding: 0px;
+	transition: 1s;
+}
+.language .inner .btn-link:hover, .language .inner .btn-link:focus{
+	color: #28377e !important;
+}
+/*login-box*/
+.contact-us{
+	width: 100%;
+	height: 500px;
+	
+}
+.contact-us .title{
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+	margin-top: -40px;
+}
+.contact-us .title h2{
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 2px;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+.contact-us {
+	
+	background-color:  #28377e;
+	background-size: cover;
+	position: relative;
+}
+.contact-us .login-box{
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 18px;
+	padding: 8px 0px;
+	margin: 8px 0px;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.textbox input{
+	border: none;
+	outline: none;
+	background: none;
+	color: #fff !important;
+	float: left;
+	width: 80%;
+	margin: 0 10px;
+
+}
+.textbox .box{
+	color: #fff;
+}
+
+ .contact-us .inner-button .btn-primary{
+ 	margin-top: 40px;
+ 	margin-left: 45px;
+
+ 	width: 60%;
+	padding: 8px 15px;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 2px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #fff;
+	background: #f2622c;
+	border: 1px solid #f2622c;
+	transition: 1s;
+	
+
+}
+.contact-us .inner-button .btn-primary:hover, .contact-us .inner-button .btn-primary:focus{
+	
+	color: #f2622c;
+
+	background: #fff;
+	border: 1px solid #f2622c;
+
+}
+
+.footer{
+	width: 100%;
+	margin: 0px;
+	background: #0c1234;
+	
+}
+.footer .copyright{
+	padding-top: 40px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+	color: #b1b7dd;
+	
+	font-weight: 500;
+}
+.footer .social-icon{
+	width: 100%;
+	display: block;
+	text-align: center;
+	
+
+}
+.footer .social-icon li{
+	list-style: none;
+	display: inline-block;
+}
+.footer .social-icon li a{
+	display: block;
+	
+	font-size: 16px;
+	padding-right: 8px;
+	color: #b1b7dd;
+	padding-top: 40px;
+	transition: 1s;
+}
+.footer .social-icon li a:hover{
+	
+	color: #f2622c;
+	
+	
+}
+.footer .social-icon li a:focus{
+	
+	color: #f2622c;
+	
+	 
+	
+}
